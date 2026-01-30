@@ -1,0 +1,25 @@
+Python Programming Overview
+
+Python is a high-level, interpreted programming language known for its clear syntax and readability. It was created by Guido van Rossum and first released in 1991.
+
+Key Features:
+1. Readability: Uses indentation to define code blocks, making it easy to learn and read.
+2. Large Standard Library: Comes with a "batteries included" philosophy, providing tools for many tasks.
+3. Dynamic Typing: Variables do not need explicit type declarations.
+4. Multi-paradigm: Supports procedural, object-oriented, and functional programming.
+
+Common Use Cases:
+- Web Development (Django, Flask)
+- Data Science and AI (Pandas, NumPy, TensorFlow, PyTorch)
+- Automation and Scripting
+- Software Testing
+
+Basic Syntax Example:
+```python
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("World"))
+```
+
+Python 3 is the current version, with Python 2 being officially retired in 2020.
