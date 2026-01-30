@@ -1,0 +1,23 @@
+# Build Your Own Jarvis - Dependencies (Compatible Versions)
+flask>=2.3.0,<4.0.0
+openai>=1.40.0,<2.0.0
+pinecone>=5.0.0,<6.0.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.0
+langchain>=0.3.0,<0.4.0
+langchain-openai>=0.2.0,<0.3.0
+langchain-pinecone>=0.2.0,<0.3.0
+langchain-text-splitters>=0.3.0,<0.4.0
+langchain-community>=0.3.0,<0.4.0
+langchain-core>=0.3.0,<0.4.0
+tiktoken>=0.7.0,<1.0.0
+# Vector Database
+langchain-pinecone>=0.2.0,<0.3.0
+# Local Metrics
+sentence-transformers>=3.0.0
+# Local Vector Store (Optional fallback)
+faiss-cpu>=1.7.4
+# Validation & Utilities
+pydantic>=2.0.0
+requests>=2.31.0
+gunicorn>=21.2.0

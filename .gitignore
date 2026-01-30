@@ -1,0 +1,52 @@
+# Environment and secrets
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.playwright-mcp/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Large files
+# docs/*.pdf
+# *.pdf
+
+# Vector stores
+faiss_index/
+faiss_index_jarvis/
+*.index
+*.faiss
+
+# Logs
+*.log
+pip-log.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archive
+.archive/
